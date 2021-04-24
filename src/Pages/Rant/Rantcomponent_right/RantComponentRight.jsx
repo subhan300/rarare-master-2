@@ -4,11 +4,13 @@ import image from "../../../Assets/Rectangle 108.png";
 import image1 from "../../../Assets/Rectangle 111.png";
 import image2 from "../../../Assets/Rectangle 110.png";
 import image3 from "../../../Assets/Rectangle 109.png";
+// NOMAN MASLA AIS COMPONENT MAI HAI , YEH PAGE KA RIGHT SIDE MAI ATA HAI , AIS MAI SLIDER AR NECHAY IMAGES HAI
 function ProposalComponentRight() {
   return (
     <>
       <div className="proposal_component_right">
-        <div >
+        {/* SLIDER */}
+        <div className="slider_div">
           <div
             id="carouselExampleIndicators text-center"
             class="carousel slide"
@@ -100,7 +102,7 @@ function ProposalComponentRight() {
         
 
 
-
+{/* IMAGES GALLERY SECTION  */}
 
 
 
